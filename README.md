@@ -9,7 +9,7 @@ Essa é a linguagem meme, desenvolvida por [Leonardo Falango](https://github.com
 Para exibir strings na tela você pode utilizar o "pave()", com a seguinte sintaxe:<br>
 <i>pave("Ou pacume?");</i>
 <br/><br>
-Sendo a quebra de linha o separador, não sendo possível codigos do tipo:<br>
+Sendo a quebra de linha o separador, não são possiveis codigos do tipo:<br>
 <i>pave("a");pave("b");</i>
 <br><br>
 Codigo correto:<br>
