@@ -1,1 +1,14 @@
 pave("hello world");
+mahOe(2+3+5);
+
+pave("1");
+pave("12");
+pave("123");
+
+pave("a");
+eAsNamoradinhas(10 < 18)
+pave("b");
+eAsNamoradinhas(20 < 18)
+pave("c");
+eAsNamoradinhas(18 < 20)
+pave("c");

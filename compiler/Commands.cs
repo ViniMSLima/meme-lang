@@ -1,13 +1,12 @@
 public enum Commands
 {
     WriteLine,
-    Sum,
-    Sub,
-    Mult,
-    Square,
-    For,
+    Eval,
     If,
-    Else,
-    While,
-    Input
+    Gt,
+    Ge,
+    Lt, 
+    Le,
+    Eq,
+    Df,
 }

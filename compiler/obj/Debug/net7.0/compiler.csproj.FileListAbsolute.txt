@@ -13,3 +13,18 @@ C:\Users\disrct\Desktop\tiozao\compiler\obj\Debug\net7.0\refint\compiler.dll
 C:\Users\disrct\Desktop\tiozao\compiler\obj\Debug\net7.0\compiler.pdb
 C:\Users\disrct\Desktop\tiozao\compiler\obj\Debug\net7.0\compiler.genruntimeconfig.cache
 C:\Users\disrct\Desktop\tiozao\compiler\obj\Debug\net7.0\ref\compiler.dll
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\bin\Debug\net7.0\compiler.exe
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\bin\Debug\net7.0\compiler.deps.json
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\bin\Debug\net7.0\compiler.runtimeconfig.json
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\bin\Debug\net7.0\compiler.dll
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\bin\Debug\net7.0\compiler.pdb
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.dll
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\refint\compiler.dll
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.pdb
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\compiler.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Nova pasta\tiozao-lang\compiler\obj\Debug\net7.0\ref\compiler.dll

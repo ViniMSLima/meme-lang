@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oTc85I0ROj6NmBWtnsj6GVJioZYagoigKYRt/IfFATviJYAGFbyooPaVnUmFTNJ/xYMZdPjgV6hLy1hRgWWCeQ==",
+  "dgSpecHash": "FKHLS2j24WcfLAgQIX0EctCdtLDRpVjHlqZCv2NtTtUtjlStr5z9hiPYqB0BpXry+r6nXzsZZyoVABwCQgJFsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\tiozao\\compiler\\compiler.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Nova pasta\\tiozao-lang\\compiler\\compiler.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

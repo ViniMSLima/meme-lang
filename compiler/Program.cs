@@ -1,7 +1,7 @@
 ﻿
 
-StreamReader sr = new StreamReader("./codigin.tiu");
-TiozaoCompiler tc = new();
+StreamReader sr = new StreamReader("./codigin.meme");
+MemeCompiler tc = new();
 
 string line;
 
@@ -13,3 +13,4 @@ while (!sr.EndOfStream)
 }
 
 tc.Debug();
+tc.SaveFile("../codigin.txt");
