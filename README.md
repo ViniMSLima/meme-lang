@@ -31,6 +31,6 @@ Para criar uma condição lógica, conhecido em outras linguagens como "if", uti
 <i>eAsNamoradinhas(8<2)<br>
 pave("Maior");</i>
 
-Como executar:
+<h1>Como executar:</h1>
 
-Escreva seu código no arquivo "codigin.meme" e execute um "dotnet run" na pasta "compiler", depois na pasta raiz roda com "node index.js" 
+Escreva seu código no arquivo "codigin.meme" e execute um "dotnet run" na pasta "compiler", depois na pasta raiz roda com "node ./index.js" 
