@@ -18,6 +18,6 @@ Para fazer operações aritméticas é possível escrever o comando "mahOe()", p
 
 <h3><b>-eAsNamoradinhas</b></h3>
 <img loading="lazy "src="https://img.ifunny.co/images/39611769e4b7e017065dff9e5df7d3f2ceb525af64c04c8b9055e72a4de55eda_3.jpg" width="50%">
-Para criar uma condição lógica, conhecido em outras linguagens como "if", utilizamos na Meme o "eAsNamoradinhas", podendo criar uma função na linha seguinte para ser executada caso a condição seja verdadeira. Veja a seguir um exemplo:
+Para criar uma condição lógica, conhecido em outras linguagens como "if", utilizamos na Meme o "eAsNamoradinhas", podendo criar uma função na linha seguinte para ser executada caso a condição seja verdadeira. Veja a seguir um exemplo:<br>
 <i>eAsNamoradinhas(8>2)<br>
 pave("Maior");</i>
