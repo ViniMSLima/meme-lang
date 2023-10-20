@@ -33,7 +33,31 @@ public class MemeCompiler
         
         if (line.Contains("eAsNamoradinhas"))
         {
-            if (line.Contains("<"))
+            if (line.Contains("<="))
+            {
+                commands.Add(Commands.Le);
+                data.Add(
+                    line.Substring(line.IndexOf("(") + 1, line.IndexOf("<=") - line.IndexOf("(") - 1)
+                );
+
+                data.Add(
+                    line.Substring(line.IndexOf("=") + 1, line.IndexOf(")") - line.IndexOf("=") - 1)
+                );
+            }
+
+            else if (line.Contains(">="))
+            {
+                commands.Add(Commands.Ge);
+                data.Add(
+                    line.Substring(line.IndexOf("(") + 1, line.IndexOf(">=") - line.IndexOf("(") - 1)
+                );
+
+                data.Add(
+                    line.Substring(line.IndexOf("=") + 1, line.IndexOf(")") - line.IndexOf("=") - 1)
+                );
+            }
+
+            else if (line.Contains("<"))
             {
                 commands.Add(Commands.Lt);
                 data.Add(
@@ -42,6 +66,42 @@ public class MemeCompiler
 
                 data.Add(
                     line.Substring(line.IndexOf("<") + 1, line.IndexOf(")") - line.IndexOf("<") - 1)
+                );
+            }
+
+            else if (line.Contains(">"))
+            {
+                commands.Add(Commands.Gt);
+                data.Add(
+                    line.Substring(line.IndexOf("(") + 1, line.IndexOf(">") - line.IndexOf("(") - 1)
+                );
+
+                data.Add(
+                    line.Substring(line.IndexOf(">") + 1, line.IndexOf(")") - line.IndexOf(">") - 1)
+                );
+            }
+
+            else if (line.Contains("=="))
+            {
+                commands.Add(Commands.Eq);
+                data.Add(
+                    line.Substring(line.IndexOf("(") + 1, line.IndexOf("==") - line.IndexOf("(") - 1)
+                );
+
+                data.Add(
+                    line.Substring(line.IndexOf("=") + 2, line.IndexOf(")") - line.IndexOf("=") - 2)
+                );
+            }
+
+            else if (line.Contains("!="))
+            {
+                commands.Add(Commands.Df);
+                data.Add(
+                    line.Substring(line.IndexOf("(") + 1, line.IndexOf("!=") - line.IndexOf("(") - 1)
+                );
+
+                data.Add(
+                    line.Substring(line.IndexOf("!") + 2, line.IndexOf(")") - line.IndexOf("!") - 2)
                 );
             }
         }

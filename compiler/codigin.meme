@@ -10,5 +10,4 @@ eAsNamoradinhas(10 < 18)
 pave("b");
 eAsNamoradinhas(20 < 18)
 pave("c");
-eAsNamoradinhas(18 < 20)
-pave("c");
+

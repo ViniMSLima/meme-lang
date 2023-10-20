@@ -3,7 +3,13 @@ const fs = require('fs')
 dictFunc = {
     0 : console.log,
     1 : eval,
+    3 : () => { },
+    4 : () => { },
     5 : () => { },
+    6 : () => { },
+    7 : () => { },
+    8 : () => { },
+    
 }
 
 
@@ -41,6 +47,52 @@ fs.readFile("./codigin.txt", 'UTF-8' , (err, arq) => {
             i += 1
             dataPointer += 2
         }
+
+        else if (element == 3)
+        {
+            if (parseInt(strings[dataPointer]) > parseInt(strings[dataPointer + 1]))
+                dictFunc[json.functions[i + 1]](strings[dataPointer + 2])
+        
+            i += 1
+            dataPointer += 2
+        }
+
+        else if (element == 6)
+        {
+            if (parseInt(strings[dataPointer]) <= parseInt(strings[dataPointer + 1]))
+                dictFunc[json.functions[i + 1]](strings[dataPointer + 2])
+        
+            i += 1
+            dataPointer += 2
+        }
+
+        else if (element == 4)
+        {
+            if (parseInt(strings[dataPointer]) >= parseInt(strings[dataPointer + 1]))
+                dictFunc[json.functions[i + 1]](strings[dataPointer + 2])
+        
+            i += 1
+            dataPointer += 2
+        }
+
+        else if (element == 7)
+        {
+            if (parseInt(strings[dataPointer]) == parseInt(strings[dataPointer + 1]))
+                dictFunc[json.functions[i + 1]](strings[dataPointer + 2])
+        
+            i += 1
+            dataPointer += 2
+        }
+
+        else if (element == 8)
+        {
+            if (parseInt(strings[dataPointer]) != parseInt(strings[dataPointer + 1]))
+                dictFunc[json.functions[i + 1]](strings[dataPointer + 2])
+        
+            i += 1
+            dataPointer += 2
+        }
+
         else if (element == 0)
         {
             dictFunc[element](strings[dataPointer])
