@@ -30,3 +30,7 @@ Para fazer operações aritméticas é possível escrever o comando "mahOe()", p
 Para criar uma condição lógica, conhecido em outras linguagens como "if", utilizamos na Meme o "eAsNamoradinhas", podendo criar uma função na linha seguinte para ser executada caso a condição seja verdadeira. As comparações possíveis de se realizar são "<" . Veja a seguir um exemplo:<br>
 <i>eAsNamoradinhas(8<2)<br>
 pave("Maior");</i>
+
+Como executar:
+
+Escreva seu código no arquivo "codigin.meme" e execute um "dotnet run" na pasta "compiler", depois na pasta raiz roda com "node index.js" 
